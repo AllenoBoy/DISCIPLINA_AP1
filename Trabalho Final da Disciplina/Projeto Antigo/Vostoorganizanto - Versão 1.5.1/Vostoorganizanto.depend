@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1668382853 source:c:\users\vanilma\desktop\vostoorganizanto\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<locale.h>
+	<string.h>
+	"resource.h"
+
+1668383353 c:\users\vanilma\desktop\vostoorganizanto\resource.h
+
+1668383171 source:c:\users\vanilma\desktop\vostoorganizanto\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1668377238 c:\users\vanilma\desktop\vostoorganizanto\functions.h
+
+1668536943 source:c:\users\vanilma\desktop\vostoorganizanto - made in c\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1668537093 c:\users\vanilma\desktop\vostoorganizanto - made in c\resource.h
+
+1668534693 source:c:\users\vanilma\desktop\vostoorganizanto - made in c\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<locale.h>
+	<string.h>
+	<sys/stat.h>
+	"resource.h"
+

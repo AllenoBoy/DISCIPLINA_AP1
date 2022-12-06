@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1668537281 source:c:\users\vanilma\desktop\vostoorganizanto\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<locale.h>
+	<string.h>
+	<sys/stat.h>
+	"resource.h"
+
+1668537093 c:\users\vanilma\desktop\vostoorganizanto\resource.h
+
+1668536943 source:c:\users\vanilma\desktop\vostoorganizanto\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1668537281 source:c:\users\vanilma\desktop\vostoorganizanto - projeto\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<locale.h>
+	<string.h>
+	<sys/stat.h>
+	"resource.h"
+
+1668537093 c:\users\vanilma\desktop\vostoorganizanto - projeto\resource.h
+
+1668536943 source:c:\users\vanilma\desktop\vostoorganizanto - projeto\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1668886238 source:c:\users\vanilma\desktop\vostoorganizanto - projeto 1.2\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1668886238 c:\users\vanilma\desktop\vostoorganizanto - projeto 1.2\resource.h
+
+1668886319 source:c:\users\vanilma\desktop\vostoorganizanto - projeto 1.2\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<commctrl.h>
+	<locale.h>
+	<string.h>
+	<sys/stat.h>
+	"resource.h"
+
