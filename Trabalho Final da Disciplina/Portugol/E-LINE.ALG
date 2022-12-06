@@ -1,6 +1,6 @@
 Algoritmo "E-LINE"
 
-// made by letícia
+// Esse código foi produzido por uma colega << Letícia >> 
 
 //NOME DO PROGRAMA: 		E-LINE
 //OBJETIVO DO CÓDIGO:  Entrar na fila e checar a situação da mesma
