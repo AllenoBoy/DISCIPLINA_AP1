@@ -1,28 +1,9 @@
-/* DOCUMENTAÇÃO DO CÓDIGO |||||||||| <EXCLUSIVO PARA AP1>
----------------------------------------------------------
-  # VOSTOORGANIZANTO - UM ORGANIZADOR DE FILAS PRÁTICO: {
-    $ LINGUAGEM BASE UTILIZADA - C
-    $ WIN 32 GUI PROJECT
-    $ BIBLIOTECA windows.h
-    $ VOSTOORGANIZANTO - Organizador de Filas em PT-BR
-                                                        }
----------------------------------------------------------
-  # SOFTWARES UTILIZADOS:                               {
-    $ CODE::BLOCKS
-    $ ResEdit
-    $ Dev-C++
-                                                        }
----------------------------------------------------------
-  # DISCIPLINA DE ALGORITIMOS E PROGRAMAÇÃO I:          {
-    $ PROJETO FINAL DA DISCIPLINA
-    $ DOCENTE: ANA PAULA FREITAS VILELA BOAVENTURA
-    $ DISCENTES:{ ALLISON DANTAS - 202200132
-                  FABIO CASTRO   - 202201161
-                  LETICIA        - 202200160
-                  ...
-                }
-                                                        }
----------------------------------------------------------
+/* OBSERVAÇÕES DE POSSÍVEIS INCLEMENTAÇÕES:
+
+   PREENCHE UMA LIST BOX  -> SendDlgItemMessage(hwndDlg, "LISTA QUE RECEBE", LB_ADDSTRING, 0, (LPARAM) "VALOR");
+   ESCONDE O CONSOLE      -> ShowWindow (GetConsoleWindow(), SW_HIDE);
+   FECHA O CONSOLE        -> CloseWindow(GetConsoleWindow());
+
 */
 
 /// AQUI COMEÇA O CÓDIGO
@@ -381,13 +362,7 @@ changeDialogTest();
     return DialogBoxA(hInst, MAKEINTRESOURCE(IDD_MENU), NULL, (DLGPROC)DlgMain);
                                                                                                }
 																							   
-/* OBSERVAÇÕES DE POSSÍVEIS INCLEMENTAÇÕES:
 
-   PREENCHE UMA LIST BOX  -> SendDlgItemMessage(hwndDlg, "LISTA QUE RECEBE", LB_ADDSTRING, 0, (LPARAM) "VALOR");
-   ESCONDE O CONSOLE      -> ShowWindow (GetConsoleWindow(), SW_HIDE);
-   FECHA O CONSOLE        -> CloseWindow(GetConsoleWindow());
-
-*/
 
 
 
