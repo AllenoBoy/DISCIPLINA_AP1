@@ -8,5 +8,5 @@ ARMAZENAMENTO DE TODOS OS MEUS CÓDIGOS QUE FORAM PRODUZIDOS DURANTE A DISCIPLIN
 > printf("\e[?25l");            -> ESCONDE O CURSOR DO CONSOLE PARA ESTILIZAÇÃO;
 
 > printf("\e[?25h");            -> MOSTRA O CURSOR DO CONSOLE PARA ESTILIZAÇÃO;
-
-> setbuf(stdin, NULL ou 0);     -> LIMPA O BUFFER; 
+    
+> setbuf(stdin, NULL ou 0); OU fflush(stdin); "menos recomendado"     -> LIMPA O BUFFER; 
