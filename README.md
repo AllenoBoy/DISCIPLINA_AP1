@@ -13,7 +13,7 @@ ARMAZENAMENTO DE TODOS OS MEUS CÓDIGOS QUE FORAM PRODUZIDOS DURANTE A DISCIPLIN
 
 > system("mode con:cols=220 lines=50"); ou system("MODE 1000");       -> DETERMINA O TAMANHO DO CONSOLE;
 
-> system("date"); -> MOSTRA A DATA;
+> system("date"); ou system("time"); -> MOSTRA A DATA OU HORA;
 
 > system("color a"); -> TECLADO VERDE;
 
