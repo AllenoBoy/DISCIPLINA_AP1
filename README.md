@@ -11,4 +11,4 @@ ARMAZENAMENTO DE TODOS OS MEUS CÓDIGOS QUE FORAM PRODUZIDOS DURANTE A DISCIPLIN
     
 > setbuf(stdin, NULL ou 0); OU fflush(stdin); "menos recomendado"     -> LIMPA O BUFFER; 
 
-> system("mode con:cols=220 lines=50"); ou system("MODE 1000");       -> DETERMINA O TAMANHO DO CONSOLE;
+
