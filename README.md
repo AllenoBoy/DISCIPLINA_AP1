@@ -17,4 +17,6 @@ ARMAZENAMENTO DE TODOS OS MEUS CÓDIGOS QUE FORAM PRODUZIDOS DURANTE A DISCIPLIN
 
 > system("color a"); -> TECLADO VERDE;
 
+> system( "type nome.txt" ); + include <process.h>  -> LÊ O CONTEUDO PRESENTE NO ARQUIVO E O PRINTA;
+
 
