@@ -39,3 +39,37 @@ do {
             system("pause");
             return 0;
             }
+
+# OUTRA POSSIBILIDADE ABAIXO
+
+
+int main()
+{
+    int i=0,k=0;
+    char str[51],str2[51]="Ola";
+
+fgets(str,51,stdin);
+
+for(;i<51;i++){
+    if(str[i]=='\0')break;
+    if(str[i]==' ')continue;
+    str2[k]=str[i];
+    k++;
+}
+
+printf("%s",str2);
+
+return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
