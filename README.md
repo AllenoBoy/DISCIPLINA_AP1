@@ -32,6 +32,13 @@ ARMAZENAMENTO DE TODOS OS MEUS CÓDIGOS QUE FORAM PRODUZIDOS DURANTE A DISCIPLIN
 - keybd_event( VK_RETURN, 0x1C, KEYEVENTF_KEYUP, 0 );
 - keybd_event( VK_MENU, 0x38, KEYEVENTF_KEYUP, 0 );
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> CASTING 
+
+int x = 12, y = 13;
+
+float result = (float) x / (char) y;
                                    
 
 
