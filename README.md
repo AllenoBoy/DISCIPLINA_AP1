@@ -34,11 +34,17 @@ ARMAZENAMENTO DE TODOS OS MEUS CÓDIGOS QUE FORAM PRODUZIDOS DURANTE A DISCIPLIN
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--> CASTING 
+-> CASTING  
 
 int x = 12, y = 13;
 
 float result = (float) x / (char) y;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+malloc   -> retorna um ponteiro do tipo void -> recebe somente o tamanho
+free(p); -> desaloca memória.
+calloc   -> retorna um ponteiro do tipo void -> recebe quantos de tal elemento vc deseja alocar
                                    
 
 
