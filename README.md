@@ -45,6 +45,11 @@ float result = (float) x / (char) y;
 malloc   -> retorna um ponteiro do tipo void -> recebe somente o tamanho
 free(p); -> desaloca memória.
 calloc   -> retorna um ponteiro do tipo void -> recebe quantos de tal elemento vc deseja alocar
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> static int -> variável criada somente uma vez
+-> const int -> constante
                                    
 
 
