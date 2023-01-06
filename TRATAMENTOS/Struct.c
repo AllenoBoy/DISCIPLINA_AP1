@@ -23,6 +23,13 @@ struct People2
     char nome [100];
 };
 
+typedef struct 
+{
+   People definiton; 
+   int idade;
+    int sociedade;
+    
+} Pipa;
 
 
 int main ()
@@ -40,7 +47,8 @@ int main ()
     // por isso o uso da função strcpy que não precisa necessariamente de uma variável para 
     // preencher a string.
     strcpy(nome.nomi, "Robson Dantas Walker Felip"); 
-
+    
+    printf("\n %d", nome.definiton.idade);
 
     printf("%s", nome.nomi);
 
