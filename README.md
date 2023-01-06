@@ -48,8 +48,9 @@ calloc   -> retorna um ponteiro do tipo void -> recebe quantos de tal elemento v
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--> static int -> variável criada somente uma vez
--> const int -> constante
+-> unsigned int -> não armazena valores negativos
+-> static int   -> variável criada somente uma vez
+-> const int    -> constante
                                    
 
 
