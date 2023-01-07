@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1673125729 source:c:\users\vanilma\desktop\teste\allen.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	"allen.h"
+
+1673125733 c:\users\vanilma\desktop\teste\allen.h
+
+1673127525 source:c:\users\vanilma\desktop\teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<conio.h>
+	<stdbool.h>
+	"allen.h"
+	"pos1_caixa.h"
+
+1673127302 c:\users\vanilma\desktop\teste\pos1_caixa.h
+
+1673127479 source:c:\users\vanilma\desktop\teste\pos1_caixa.c
+	<stdio.h>
+	<stdlib.h>
+	"pos1_caixa.h"
+	"allen.h"
+

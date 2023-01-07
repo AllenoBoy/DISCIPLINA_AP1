@@ -1,0 +1,46 @@
+# include <stdio.h>
+# include <stdlib.h>
+# include <windows.h>
+# include "allen.h"
+
+void gotoxy(int x, int y)
+  {
+    COORD coord;
+    coord.X = x;
+    coord.Y = y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
+  }
+
+
+
+void MenuOptions (int Lmenu)
+{
+    int Lmenu2;
+
+    // Around Menu
+    printf(" +");
+    for (Lmenu = 0; Lmenu < 27; Lmenu++) printf("-");
+    printf("+\n ");
+
+    while (Lmenu2 != 14) {
+
+                printf("|");
+                for (Lmenu = 0; Lmenu < 27; Lmenu++) printf(" ");
+                printf("|\n ");
+                Lmenu2++;
+                       }
+
+    printf("+");
+    for (Lmenu = 0; Lmenu < 27; Lmenu++) printf("-");
+    printf("+\n ");
+
+    // Print Opções
+    gotoxy(5, 2); printf("| ATENDIMENTO CAIXA |");
+    gotoxy(2, 4); printf("---------------------------");
+    gotoxy(9, 6); printf("ACESSAR CONTA");
+    gotoxy(13, 8); printf("AJUDA");
+    gotoxy(13, 8); printf("AJUDA");
+}
+
+
+
