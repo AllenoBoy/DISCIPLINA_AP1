@@ -2,7 +2,7 @@
 # include <stdlib.h>
 # include <time.h>
 
-int kaj, tam, tam2;
+int kaj, tam, tam2, jak;
 unsigned int receive;
 
  int main ()
@@ -22,6 +22,8 @@ unsigned int receive;
 
     for (kaj = 0; kaj < tam; kaj++) printf("\n %d => ( %d )", kaj, p[kaj]);
 
+    jak = kaj;
+
     printf("\n ");
 
     system("PAUSE > NULL");
@@ -35,11 +37,11 @@ unsigned int receive;
 
     system("cls");
 
-    for (kaj = 0; kaj < receive; kaj++) p [kaj] = rand () % 50;
+    for ( jak = kaj; jak < receive; jak++) p [jak] = rand () % 50;
 
     printf("\n ! Tamanho novo do vetor = %d\n", tam2);
 
-    for (kaj = 0; kaj < receive; kaj++) printf("\n %d => ( %d )", kaj, p[kaj]);
+    for ( kaj = 0; kaj < receive; kaj++) printf("\n %d => ( %d )", kaj, p[kaj]);
 
     printf("\n ");
 
