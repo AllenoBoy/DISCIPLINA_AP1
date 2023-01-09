@@ -51,6 +51,12 @@ calloc   -> retorna um ponteiro do tipo void -> recebe quantos de tal elemento v
 -> unsigned int -> não armazena valores negativos
 -> static int   -> variável criada somente uma vez
 -> const int    -> constante
-                                   
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    c = var / 100; // PEGA A CENTENA
+    d = var % 100; // PEGA A DEZENA
+    u = d   %  10; // PEGA A UNIDADE
+    d = d   /  10; // PEGA A DEZENA FINAL
 
 
