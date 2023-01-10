@@ -58,5 +58,10 @@ calloc   -> retorna um ponteiro do tipo void -> recebe quantos de tal elemento v
     d = var % 100; // PEGA A DEZENA
     u = d   %  10; // PEGA A UNIDADE
     d = d   /  10; // PEGA A DEZENA FINAL
+    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+    HWND consoleWindow = GetConsoleWindow();                                    // PERMITE DEFINIR A POSIÇÃO DO CONSOLE
+    SetWindowPos( consoleWindow, 0, 10, 20, 0, 0, SWP_NOSIZE | SWP_NOZORDER );  // PERMITE DEFINIR A POSIÇÃO DO CONSOLE
 
 
